@@ -65,7 +65,7 @@ const buildArgs = (req, object) => {
     var finalDate = date.toString().substring(0,4).concat('/');
     finalDate = finalDate.concat(date.toString().substring(4,6)).concat('/');
     finalDate = finalDate.concat(date.toString().substring(6,8));
-    
+    console.log(finalDate);
     return [object+'.py', finalDate, finalHour, '+00:00', lat, lng];
 }
 

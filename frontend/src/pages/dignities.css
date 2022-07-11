@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Astro";
+    src: local("Astro"),
+     url("../fonts/Astro-ZLzx.ttf") format("truetype");
+    font-weight: normal;
+    }
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  table.dignities {
+    margin-bottom: 100px;
+  }
+  
+  table.dignities, table.dignities > td {
+    font-size: 10px;
+    border: 1px solid white;
+    min-width: 50px;
+    border-collapse: collapse;
+  }
+  
+  table.dignities td {
+    padding: 5px;
+  }
+  
+  .header {
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+  }
+  
+  .total {
+    border-top: 2px solid white;
+    border-bottom: 4px solid white;
+  }
+  
+  .divider {
+    border-bottom: 2px solid white;
+  }
+  
+  .disabled {
+    background-color: #49515f;
+  }
+  
+  table.dignities > td:first-child,
+  table.dignities > td:last-child {
+    min-width: 200px;
+  }
+  
+  .positive {
+    color: #fff;
+    background-color: #334462;
+  }
+  .negative {
+    color: #fff;
+    background-color: #5e2e2e;
+  }
+
+  .planetSign {
+      font-family: 'Astro';
+      font-size: 16px;
+  }
